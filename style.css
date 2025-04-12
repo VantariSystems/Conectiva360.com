@@ -10,7 +10,7 @@ body {
   header {
     background: #0bb543;
     color: white;
-    padding: 20px 0;
+    padding: 20% 0;
     text-align: center;
   }
   
@@ -23,7 +23,7 @@ body {
   }
   
   nav ul li {
-    margin: 0 15px;
+    margin: 0 15%;
   }
   
   nav ul li a {
@@ -32,14 +32,25 @@ body {
   }
   
   .intro, section {
-    padding: 20px;
+    padding: 20%;
     background: white;
-    margin: 10px auto;
+    margin: 0 auto;
     max-width: 800px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
-  
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
   footer {
     text-align: center;
     padding: 15px;
@@ -64,7 +75,7 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 6px;
-    font-size: 16px;
+    font-size: 1rem;
   }
   
   .contato-form button {
