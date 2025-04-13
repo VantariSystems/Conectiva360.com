@@ -32,20 +32,14 @@ body {
   }
   
   .intro, section {
-    padding: 20%;
+    padding: 20px;
     background: white;
-    margin: 0 auto;
+    margin: 10px auto;
     max-width: 800px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
-
-.container {
-    width: 90%;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
+  
   footer {
     text-align: center;
     padding: 15px;
@@ -70,7 +64,7 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 6px;
-    font-size: 1rem;
+    font-size: 16px;
   }
   
   .contato-form button {
@@ -118,9 +112,17 @@ body {
   list-style: disc;
   margin-left: 1.5rem;
  }
-
 @media (max-width: 768px) {
-    .container {
-        padding: 0.5rem;
+    body {
+        font-size: 1rem;
+        line-height: 1.4;
     }
-}
+
+    h1,h2,h3 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .container {
+        padding: 1rem;
+    }
+
