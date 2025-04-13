@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CONSULTORIA SOCIAL BR</title>
   <link rel="stylesheet" href="style.css">
+  <!-- AOS CSS -->
+   <link
+   href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -22,14 +25,14 @@
   </header>
 
   <main class="conteudo">
-    <section id="sobre">
+    <section id="sobre" data-aos="fade-up" data-aos-duration="300">
       <h2> Bem vindo ao nosso espaço de apoio</h2>
       <p>Benefícios para Idosos e Pessoas com Deficiência!</p>
       <p>Este site é dedicado a ajudar idosos e pessoas com deficiência a acessarem seus direitos e benefícios socias, como BPC(Benefício de Prestação Continuada).</p>
     </section>
 
     </section>
-  <section id="quem-somos">
+  <section id="quem-somos" data-aos="fade-up" data-aos-duration="300">
     <h2>Quem somos?</h2>
     <div class="perfil">
       <img src="assistente-social.jpg" alt="Assistente social"/>
@@ -39,7 +42,7 @@
       </div>
   </section>
 
-  <section id="beneficios">
+  <section id="beneficios" data-aos="fade-up" data-aos-duration="300">
 
     <form action="https://formspree.io/f/meoanqny" method="POST" class="contato-form">
         <label for="nome">Nome completo:</label>
@@ -87,18 +90,18 @@
     </p>
   </section>
 
-  <section id="ajuda">
+  <section id="ajuda" data-aos="fade-up" data-aos-duration="300">
     <h2>Fale com a Assistente Social</h2>
     <p>Precisa de ajuda? Entre em contato preenchendo nosso formulário e agende um atendimento.</p>
   </section>
 
-  <section id="artigos">
+  <section id="artigos" data-aos="fade-up" data-aos-duration="300">
     <h2>Artigos e Dicas</h2>
     <p>A assistência social no Brasil garante uma série de direitos e benefícios para pessoas idosas e pessoas com deficiência, buscando promover mais qualidade de vida e dignidade. Confira os principais benefícios que você pode acessar!</p>
     <h3>Esses benefícios são essenciais para a dignidade e igualdade de direitos de idosos e pessoas com deficiência, garantindo acesso a recursos e serviços básicos. Fique atento e aproveite os direitos que você tem!</h3>
   </section>
 
-  <section id="acessibilidade">
+  <section id="acessibilidade" data-aos="fade-up" data-aos-duration="300">
     <h2>A acessibilidade: Direitos, Recursos e Inclusão</h2>
     <article> 
     <h3>O que é Acessibilidade?</h3>
@@ -131,5 +134,10 @@
     <p>© 2025 Consultoria Social BR - por Reizinha Cardoso de Sousa Andrelino. Todos os direitos reservados.</p>
     <p><strong>Identificação Profissional:</strong> 09228/MA - Conselho Regional de Serviço Social</p>
   </footer>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init()
+  </script>
 </body>
 </html>
