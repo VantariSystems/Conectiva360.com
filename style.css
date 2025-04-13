@@ -1,128 +1,129 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #04a91f;
-    color: #333;
-  }
-  
-  header {
-    background: #0bb543;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap:wrap;
-
-    justify-content: center;
-    background-color: #020208;   
-  }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .intro, section {
-    padding: 20px;
-    background: white;
-    margin: 10px auto;
-    max-width: 800px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  footer {
-    text-align: center;
-    padding: 15px;
-    background: #0bb543;
-    color: rgb(15, 14, 14);
-    margin-top: 20px;
-  }
-
-  .contato-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 20px;
-  }
-  
-  .contato-form label {
-    font-weight: bold;
-  }
-  
-  .contato-form input,
-  .contato-form textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 16px;
-  }
-  
-  .contato-form button {
-    background-color: #025159;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .contato-form button:hover {
-    background-color: #017374;
-  }
-
- .subtitulo {
-  font-size: 16px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #04a91f;
   color: #333;
-  margin-top: -10px;
-  margin-bottom:20px; 
- }
+}
 
- #acessibilidade {
-  padding: 2rem;
-  background-color: #f7f7f7;
-  border-radius:8px;
-  font-family: Arial,sans-serif;
- }
+header {
+  background: #0bb543;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
 
- #acessibilidade h2 {
-  color: black;
- font-size: 2rem;
- margin-bottom: 1rem;
- }
- #acessibilidade article{
-  margin-bottom: 1.5rem;
- }
- #acessibilidade h3 {
-  color:#333;
-  margin-top: 1rem;
- }
- #acessibilidade ul{
-  list-style: disc;
-  margin-left: 1.5rem;
- }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap:wrap;
+
+  justify-content: center;
+  background-color: #020208;   
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.intro, section {
+  padding: 20px;
+  background: white;
+  margin: 10px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #0bb543;
+  color: rgb(15, 14, 14);
+  margin-top: 20px;
+}
+
+.contato-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contato-form label {
+  font-weight: bold;
+}
+
+.contato-form input,
+.contato-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.contato-form button {
+  background-color: #025159;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contato-form button:hover {
+  background-color: #017374;
+}
+
+.subtitulo {
+font-size: 16px;
+color: #333;
+margin-top: -10px;
+margin-bottom:20px; 
+}
+
+#acessibilidade {
+padding: 2rem;
+background-color: #f7f7f7;
+border-radius:8px;
+font-family: Arial,sans-serif;
+}
+
+#acessibilidade h2 {
+color: black;
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+#acessibilidade article{
+margin-bottom: 1.5rem;
+}
+#acessibilidade h3 {
+color:#333;
+margin-top: 1rem;
+}
+#acessibilidade ul{
+list-style: disc;
+margin-left: 1.5rem;
+}
 
 @media (max-width: 600px) {
-    nav ul {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    nav ul li {
-      margin: 5px 0;
-    }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
   }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+}
+
