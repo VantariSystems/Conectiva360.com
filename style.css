@@ -112,17 +112,3 @@ body {
   list-style: disc;
   margin-left: 1.5rem;
  }
-@media (max-width: 768px) {
-    body {
-        font-size: 1rem;
-        line-height: 1.4;
-    }
-
-    h1,h2,h3 {
-        font-size: 1.2rem;
-        text-align: center;
-    }
-    .container {
-        padding: 1rem;
-    }
-
