@@ -3,12 +3,12 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: #04a91f;
+  background: #fafafa;
   color: #333;
 }
 
 header {
-  background: #0bb543;
+  background: #00a859;
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -22,7 +22,7 @@ nav ul {
   flex-wrap:wrap;
 
   justify-content: center;
-  background-color: #020208;   
+  background-color: #0b1d29;   
 }
 
 nav ul li {
@@ -32,6 +32,12 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #02b2bb;
 }
 
 .intro, section {
@@ -46,8 +52,7 @@ nav ul li a {
 footer {
   text-align: center;
   padding: 15px;
-  background: #0bb543;
-  color: rgb(15, 14, 14);
+  background: #00a859;
   margin-top: 20px;
 }
 
@@ -68,21 +73,22 @@ footer {
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 16px;
+  color: #333;
 }
 
 .contato-form button {
-  background-color: #025159;
+  background-color: #027573;
   color: white;
   padding: 10px;
   border: none;
   border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .contato-form button:hover {
-  background-color: #017374;
+  background-color: #02b2bb;
 }
 
 .subtitulo {
@@ -100,18 +106,18 @@ font-family: Arial,sans-serif;
 }
 
 #acessibilidade h2 {
-color: black;
+color: #333;
 font-size: 2rem;
 margin-bottom: 1rem;
 }
-#acessibilidade article{
+#acessibilidade article {
 margin-bottom: 1.5rem;
 }
 #acessibilidade h3 {
-color:#333;
+color: #0b1d29;
 margin-top: 1rem;
 }
-#acessibilidade ul{
+#acessibilidade ul {
 list-style: disc;
 margin-left: 1.5rem;
 }
