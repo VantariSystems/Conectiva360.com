@@ -134,3 +134,39 @@ margin-left: 1.5rem;
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilo para botões com visual profissional */
+.btn {
+  display: inline-block;
+  background-color: #00a859; /* mesma cor do header */
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  animation: pulse 2s infinite;
+}
+
+/* Efeito ao passar o mouse */
+.btn:hover {
+  background-color: #027573;
+  transform: translateY(-2px);
+}
+
+/* Animação pulse para destaque */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 168, 89, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(0, 168, 89, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 168, 89, 0);
+  }
+}
