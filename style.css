@@ -3,12 +3,12 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: #fafafa;
+  background: #f4f8f9;
   color: #333;
 }
 
 header {
-  background: #00a859;
+  background: #2b4a57;
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -52,7 +52,7 @@ nav ul li a:hover {
 footer {
   text-align: center;
   padding: 15px;
-  background: #00a859;
+  background: #2b4a57;
   margin-top: 20px;
 }
 
