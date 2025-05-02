@@ -6,40 +6,33 @@ body {
   background: #e9f7ef;
   color: #2e2e2e;
 }
-
 header {
   background: #145a32;
   color: white;
   padding: 20px 0;
   text-align: center;
 }
-
 nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   flex-wrap:wrap;
-
   justify-content: center;
   background-color: #1e8449;   
 }
-
 nav ul li {
   margin: 0 15px;
 }
-
 nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
-
 nav ul li a:hover {
   color: #27ae60;
 }
-
 .intro, section {
   padding: 20px;
   background: #ffffff;
@@ -48,25 +41,21 @@ nav ul li a:hover {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-
 footer {
   text-align: center;
   padding: 15px;
   background: #1E8449;
   margin-top: 20px;
 }
-
 .contato-form {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-top: 20px;
 }
-
 .contato-form label {
   font-weight: bold;
 }
-
 .contato-form input,
 .contato-form textarea {
   padding: 10px;
@@ -75,7 +64,6 @@ footer {
   font-size: 16px;
   color: #333;
 }
-
 .contato-form button {
   background-color: #027573;
   color: white;
@@ -87,25 +75,21 @@ footer {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
 .contato-form button:hover {
   background-color: #02b2bb;
 }
-
 .subtitulo {
 font-size: 16px;
 color: #333;
 margin-top: -10px;
 margin-bottom:20px; 
 }
-
 #acessibilidade {
 padding: 2rem;
 background-color: #f7f7f7;
 border-radius:8px;
 font-family: Arial,sans-serif;
 }
-
 #acessibilidade h2 {
 color: #333;
 font-size: 2rem;
@@ -122,26 +106,21 @@ margin-top: 1rem;
 list-style: disc;
 margin-left: 1.5rem;
 }
-
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
     align-items: center;
   }
-
   nav ul li {
     margin: 5px 0;
   }
 }
-
 html {
   scroll-behavior: smooth;
 }
-
-/* Estilo para botões com visual profissional */
 .btn {
   display: inline-block;
-  background-color: #00a859; /* mesma cor do header */
+  background-color: #00a859;
   color: #fff;
   padding: 12px 24px;
   border-radius: 8px;
@@ -151,14 +130,10 @@ html {
   transition: background-color 0.3s ease, transform 0.2s ease;
   animation: pulse 2s infinite;
 }
-
-/* Efeito ao passar o mouse */
 .btn:hover {
   background-color: #027573;
   transform: translateY(-2px);
 }
-
-/* Animação pulse para destaque */
 @keyframes pulse {
   0% {
     box-shadow: 0 0 0 0 rgba(0, 168, 89, 0.4);
