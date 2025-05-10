@@ -1,11 +1,11 @@
-## Direitos Autorais
+Licença de Uso Exclusivo para Cliente | Rafaella de Sousa Andrelino
 
-© 2025 Rafaella de Sousa Andrelino. Todos os direitos reservados.
+Este site foi desenvolvido sob encomenda para fins institucionais. O código, layout e estrutura pertencem à autora e foram licenciados exclusivamente ao cliente.
 
-Este projeto foi idealizado, desenvolvido e publicado por mim, com o objetivo de apoiar pessoas em situações desafiadoras por meio da tecnologia.
+Uso permitido:
+- Uso pelo contratante em seus domínios autorizados.
 
-**Não é permitida a cópia, redistribuição, modificação ou uso parcial/total deste código sem minha autorização expressa por escrito.**
+Uso proibido:
+- Clonar, copiar ou usar para outros profissionais sem nova contratação ou permissão.
 
-Caso você tenha interesse em colaborar ou utilizar trechos para fins educacionais, entre em contato pelo e-mail disponível no portfólio.
-
-Violação de uso pode acarretar medidas legais conforme a Lei de Direitos Autorais (Lei 9.610/98 - Brasil) e os Termos do GitHub
+© 2025 Rafaella de Sousa Andrelino
